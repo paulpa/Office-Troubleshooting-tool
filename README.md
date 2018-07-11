@@ -18,7 +18,8 @@ We can do the following
 3. We can get the KB /Hotfix number which is missing from the windows installer cache.
 4. we can Fix the Patches 
   a. Repair Cache
-  b. Apply Patch
+
+b. Apply Patch
   c. Build Installer cache from a good server source
   d. We can uninstall a Patch
   e. We can Reconcile Cache
@@ -52,12 +53,18 @@ How to Use the Tool
 ++++++++++++++++++++++++++++++++++++
 ++++++++++Missing MSIs++++++++++++++
 ++++++++++++++++++++++++++++++++++++
-Error:                          Product {90150000-00C1-0000-1000-0000000FF1CE} - Microsoft Office 32-bit Components 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb75.msi
-Error:                          Product {90150000-00C1-0409-1000-0000000FF1CE} - Microsoft Office Shared 32-bit MUI (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb56.msi
-Error:                          Product {90150000-0115-0409-1000-0000000FF1CE} - Microsoft Office Shared Setup Metadata MUI (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb51.msi
-Error:                          Product {90150000-0017-0000-1000-0000000FF1CE} - Microsoft SharePoint Designer 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38ebc6.msi
-Error:                          Product {90150000-0017-0409-1000-0000000FF1CE} - Microsoft SharePoint Designer MUI (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb6f.msi
-Error:                          Product {90150000-002C-0409-1000-0000000FF1CE} - Microsoft Office Proofing (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb6a.msi
+Error: Product {90150000-00C1-0000-1000-0000000FF1CE} - Microsoft Office 32-bit Components 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb75.msi
+
+Error: Product {90150000-00C1-0409-1000-0000000FF1CE} - Microsoft Office Shared 32-bit MUI (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb56.msi
+
+Error: Product {90150000-0115-0409-1000-0000000FF1CE} - Microsoft Office Shared Setup Metadata MUI (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb51.msi
+
+Error: Product {90150000-0017-0000-1000-0000000FF1CE} - Microsoft SharePoint Designer 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38ebc6.msi
+
+Error: Product {90150000-0017-0409-1000-0000000FF1CE} - Microsoft SharePoint Designer MUI (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb6f.msi
+
+Error: Product {90150000-002C-0409-1000-0000000FF1CE} - Microsoft Office Proofing (English) 2013: Local cached .msi appears to be missing: C:\WINDOWS\Installer\38eb6a.msi
+
 
 ========================================================================================================================================
 To the fix this issue we have click the "Fix the Patches" Tab
